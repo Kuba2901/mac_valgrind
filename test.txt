@@ -1,0 +1,5 @@
+test
+test1
+test2alias run_valgrind='~/.local/bin/run_valgrind.sh'
+alias run_valgrind='~/.local/bin/run_valgrind.sh'
+alias run_valgrind='~/.local/bin/run_valgrind.sh'
