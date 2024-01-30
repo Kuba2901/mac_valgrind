@@ -17,14 +17,6 @@ The * depends on the shell that your using.
 sudo mkdir ~/.local/bin
 ~~~
 
-<!-- ## 2. Create a Dockerfile somewhere on the computer
-Paste this into the file.
-~~~ Dockerfile
-FROM alpine:latest
-RUN apk add gcc valgrind
-RUN apk add musl-dev
-~~~ -->
-
 ## 2. Create the docker image
 Run the following command in the directory where you have the Dockerfile
 ~~~ sh
