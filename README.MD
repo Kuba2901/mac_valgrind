@@ -31,20 +31,12 @@ Run the following command in the directory where you have the Dockerfile
 docker build -t "valgrind:1.0" .
 ~~~
 
-## 3. Create the running script
-Call the script run_valgrind.sh
-~~~ sh
-#!/bin/sh
-
-docker run -it -v $PWD:/tmp -w /tmp valgrind:1.0
-~~~
-
-## 4. Move it under <i>~/.local/bin</i>
+## 3. Move the run_valgrind script under <i>~/.local/bin</i>
 ~~~ sh
 mv run_valgrind.sh ~./local/bin
 ~~~
 
-## 5. Add alias
+## 4. Add alias to the path
 Depending on which shell you're using.<br>
 <b>ZSH</b>
 ~~~ sh
@@ -55,7 +47,7 @@ echo "alias run_valgrind='~/.local/bin/run_valgrind.sh'" >> ~/.zshrc
 echo "alias run_valgrind='~/.local/bin/run_valgrind.sh'" >> ~/.bashrc
 ~~~
 
-## 6. Restart or source the terminal window
+## 5. Restart or source the terminal window
 
 ~~~sh
 source ~/.zshrc
@@ -65,5 +57,5 @@ or
 source ~/.bashrc
 ~~~
 
-## 7. Enjoy using run_valgrind
+## 6. Enjoy using run_valgrind
 #### Author: [Kuba2901](https://www.github.com/Kuba2901)
