@@ -6,8 +6,13 @@ https://docs.docker.com/desktop/install/mac-install/
 From here on you can either follow the instructions or use the install_*.sh, depending on your preferences.
 
 If you would like to use the script, first change the permissions like this:
+<b>ZSH</b>
 ~~~ sh
-sudo chmod +x install_*.sh
+sudo chmod +x install_zsh.sh
+~~~
+<b>BASHRC</b>
+~~~ sh
+sudo chmod +x install_bash.sh
 ~~~
 
 The * depends on the shell that your using.
