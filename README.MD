@@ -58,4 +58,5 @@ source ~/.bashrc
 ~~~
 
 ## 6. Enjoy using run_valgrind
+Whenever you need to use valgrind, just navigate to the program directory and run <i>run_valgrind</i>.
 #### Author: [Kuba2901](https://www.github.com/Kuba2901)
