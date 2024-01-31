@@ -30,7 +30,7 @@ docker build -t "valgrind:1.0" .
 
 ## 3. Move the run_valgrind script under <i>~/.local/bin</i>
 ~~~ sh
-mv run_valgrind.sh ~./local/bin
+sudo mv run_valgrind.sh ~/.local/bin
 ~~~
 
 ## 4. Add alias to the path
@@ -46,11 +46,11 @@ echo "alias run_valgrind='~/.local/bin/run_valgrind.sh'" >> ~/.bashrc
 
 ## 5. Restart or source the terminal window
 
-~~~sh
+~~~ sh
 source ~/.zshrc
 ~~~
 or
-~~~sh
+~~~ sh
 source ~/.bashrc
 ~~~
 
