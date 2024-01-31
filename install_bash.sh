@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo mkdir ~/.local/bin
+sudo mkdir -p ~/.local/bin
 docker build -t "valgrind:1.0" .
 sudo chmod +x run_valgrind.sh
 sudo mv run_valgrind.sh ~/.local/bin
