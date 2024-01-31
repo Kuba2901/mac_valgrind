@@ -15,8 +15,6 @@ sudo chmod +x install_zsh.sh
 sudo chmod +x install_bash.sh
 ~~~
 
-The * depends on the shell that your using.
-
 ## 2. Create a directory for the script
 ~~~ sh
 sudo mkdir ~/.local/bin
