@@ -1,4 +1,5 @@
 # MAC VALGRIND INSTALLATION USING DOCKER
+This repo was created to help 42roma students to debug leaks in their programs before submitting projects.
 
 ## 1. Install docker by following the official documentation
 https://docs.docker.com/desktop/install/mac-install/
